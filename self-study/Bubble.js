@@ -19,6 +19,7 @@ const bubbleSort = (arr) => {
       }
     }
     if (!swapped) {
+      console.log(`Array is sorted in ${j} iterations`);
       break;
     }
   }
@@ -26,4 +27,5 @@ const bubbleSort = (arr) => {
 };
 
 let arr = [5, 3, 8, 4, 2];
-bubbleSort(arr);
+let arr2 = [1, 2, 3, 4, 5];
+bubbleSort(arr2);
