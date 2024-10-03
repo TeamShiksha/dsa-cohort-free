@@ -2,7 +2,7 @@ const swap = (i, j) => {
   let num1 = i;
   let num2 = j;
   num1 = num1 + num2;
-  num2 - num1 - num2;
+  num2 = num1 - num2;
   num1 = num1 - num2;
   return [num1, num2];
 };
@@ -28,4 +28,5 @@ const bubbleSort = (arr) => {
 
 let arr = [5, 3, 8, 4, 2];
 let arr2 = [1, 2, 3, 4, 5];
+bubbleSort(arr);
 bubbleSort(arr2);
