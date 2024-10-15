@@ -1,7 +1,7 @@
 // Question Link: https://www.interviewbit.com/problems/set-matrix-zeros/
 
 
-// Brute Force Solution - TC = O(n^2), SC = O(1)
+// Optimal Solution - TC = O(n^2), SC = O(1)
 public class Solution {
     public void setZeroes(ArrayList<ArrayList<Integer>> matrix) {
         boolean firstColZero = false;
